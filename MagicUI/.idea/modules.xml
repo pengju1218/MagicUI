@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MagicUI.iml" filepath="$PROJECT_DIR$/MagicUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagicUILib/MagicUILib.iml" filepath="$PROJECT_DIR$/MagicUILib/MagicUILib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+    </modules>
+  </component>
+</project>
