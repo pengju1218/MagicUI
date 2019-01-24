@@ -3,7 +3,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 
 
-version = "1.0.1"
+version = "1.0.7"
 
 //def siteUrl = 'https://github.com/Rukey7/DragSlopLayout'
 //def gitUrl = 'https://github.com/Rukey7/DragSlopLayout'
@@ -12,7 +12,7 @@ def siteUrl = 'https://github.com/pengju1218/MagicUI' // 项目主页。
 def gitUrl = 'https://github.com/pengju1218/MagicUI.git' // Git仓库的url。
 
 def issueUrl = 'https://github.com/pengju1218/MagicUI/issues'    //issue url of the library
-group = "com.magic.view"
+group = "com.csdn.Weight"
 
 install {
     repositories.mavenInstaller {
@@ -21,8 +21,8 @@ install {
             project {
                 packaging 'aar'
                 // Add your description here
-                name 'UIlib'
-                artifactId 'UIlib'
+                name 'MagicUILib'
+                artifactId 'MagicUILib'
                 url siteUrl
                 // Set your license
                 licenses {
@@ -93,8 +93,8 @@ bintray {
     key = properties.getProperty("bintray.apikey")
     configurations = ['archives']
     pkg {
-        repo = "UIWeight"    //发布到Bintray的哪个仓库
-        name = "UIlib"    //发布到Bintray上的名字
+        repo = "MagicUI"    //发布到Bintray的哪个仓库
+        name = "MagicUILib"    //发布到Bintray上的名字
         desc = "A library to add tag for ImageView."    //项目描述
         websiteUrl = siteUrl
         vcsUrl = gitUrl

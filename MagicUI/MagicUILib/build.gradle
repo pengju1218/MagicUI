@@ -6,11 +6,11 @@ apply plugin: 'com.android.library'
 
 apply plugin: 'com.github.dcendents.android-maven'
 // Your Group
-group='com.csdn.weight'
+group = "com.magic.view"
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
-    resourcePrefix "andserver_res_"
+
     lintOptions {
         abortOnError false
     }
@@ -20,7 +20,7 @@ android {
         minSdkVersion 17
         targetSdkVersion 28
         versionCode 1
-        versionName '1.0.8'
+        versionName '1.0.9'
     }
 
     sourceSets {
